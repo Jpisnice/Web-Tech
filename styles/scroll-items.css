@@ -1,0 +1,33 @@
+#celestialOdysseyCruiser {
+    background-image: url('../res/space-rides basics/Celestial Odyssey Cruiser.png');
+}
+
+#interplanetaryNebulaNomad {
+    background-image: url('../res/space-rides basics/Interplanetary Nebula Nomad.jpeg');
+}
+
+#wormholeWandererPod {
+    background-image: url('../res/space-rides basics/Wormhole Wanderer Pod.png');
+}
+
+#nebulaNavigatrixExplorer {
+    background-image: url('../res/space-rides basics/Nebula Navigatrix Explorer.png');
+}
+
+#interstellarWarpVoyager {
+    background-image: url('../res/space-rides basics/Interstellar Warp Voyager.png');
+}
+
+#galacticWhirlwindTransporter {
+    background-image: url('../res/space-rides basics/Galactic Whirlwind Transporter.png');
+}
+
+#quantumGravitySphere {
+    background-image: url('../res/space-rides basics/Quantum Gravity Sphere.jpeg');
+}
+
+#stellarSpectraGlide {
+    background-image: url('../res/space-rides basics/Stellar Spectra Glide.jpeg');
+}
+
+/* Add more styles or adjust properties as needed */

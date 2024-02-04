@@ -1,0 +1,104 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+
+body{
+    background-image: url(../res/BG/Space-Gradient.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+.media-scroller{
+    --spacer:0.5rem;
+    display:grid;
+    gap: var(--spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 22%;
+    
+
+    overflow-x: hidden;
+    overscroll-behavior-inline: contain;
+}
+.media-scroller:hover{
+    overflow-x: auto;
+}
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+}
+.outer-container{
+    height: 100vh;
+    background-origin: content-box;
+    width: 100%;
+}
+.snaps-inline > *{
+    scroll-snap-align: start;
+}
+
+.media-item{
+    display: grid;
+        grid-template-rows: min-content;
+        gap: var(--spacer);
+        padding: var(--spacer);
+        background: var(--surface-2);
+        border-radius: var(--radius-2);
+        box-shadow: var(--shadow-2);
+        
+}
+
+.media-item>img {
+    inline-size: 200%;
+    aspect-ratio: 16 / 9;
+    object-fit:cover;
+    border-radius: 5px;
+    
+}
+
+.media-item>p {
+    font-size: 12px;
+    overflow-wrap: break-word;
+}
+
+.outer-container{
+    padding: 10px;
+}
+
+.para>p{
+    /* Your paragraph styles here */
+
+    width: 100vw;
+    box-sizing: border-box;
+    white-space:inherit;
+    margin: 5px;
+}
+
+.para>img{
+    inline-size: 40%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.para{
+    display: flex;
+    padding: auto;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #0c0113;
+}
+
+.navbar>a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.outer-container>h1{
+    text-align: left;
+}
