@@ -6,6 +6,7 @@ body{
     background-image: url(../res/BG/Space-Gradient.jpg);
     width: 100vw;
     height: 200vh;
+    padding: 5px;
 }
 .media-scroller{
     --spacer:0.5rem;
@@ -83,20 +84,6 @@ body{
     display: flex;
     padding: auto;
 
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #151515;
-}
-
-.navbar>a{
-    float: left;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 .outer-container>h1{

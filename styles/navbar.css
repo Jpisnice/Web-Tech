@@ -1,0 +1,25 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+
+body {
+    background-image: url(../res/BG/Space-Gradient.jpg);
+    width: 100vw;
+    height: 200vh;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #151515;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar>a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
