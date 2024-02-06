@@ -23,9 +23,10 @@
 }
 
 .ship-details{
+    transition: ease-in-out 0.5s;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #ffffff;
+    border: 0.2px solid #ffffff;
     border-radius: 10px;
     min-width: 50vh;
 }
@@ -47,4 +48,35 @@
 .des{
     padding: 10px;
     margin: 5px;
+}
+
+.book-btn{
+transition: ease-in-out 0.2s;
+background-color: transparent;
+border: #ffffff solid 1px;
+}
+
+.testDrive-btn{
+    transition: ease-in-out 0.2s;
+    background-color:transparent;
+    border:#ffffff solid 1px;
+}
+
+.book-btn:hover{
+    transition: ease-in-out 0.2s;
+    background-color: #efefef;
+    color: #000000;
+}
+
+.testDrive-btn:hover{
+
+    transition: ease-in-out 0.2s;
+    background-color: #efefef;
+    color: #000000;
+}
+
+.ship-details:hover{
+    transition: ease-in-out 0.5s;
+    background-color: #090110;
+    color: #ffffff;
 }
