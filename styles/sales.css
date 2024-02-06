@@ -2,10 +2,11 @@
 @import "https://unpkg.com/open-props/normalize.min.css";
 
 .outer-cont{
-    margin:30px;
+    margin:0px;
 }
+
 .img-cont img{
-    max-width: 40vh;
+    max-width: 35vh;
     max-height: auto;
     min-width: 2vh;
     min-height: auto;
@@ -23,7 +24,7 @@
 }
 
 .ship-details{
-    transition: ease-in-out 0.5s;
+    transition:ease-in 0.2s;
     padding: 10px;
     margin: 10px;
     border: 0.2px solid #ffffff;
@@ -75,8 +76,4 @@ border: #ffffff solid 1px;
     color: #000000;
 }
 
-.ship-details:hover{
-    transition: ease-in-out 0.5s;
-    background-color: #090110;
-    color: #ffffff;
-}
+
