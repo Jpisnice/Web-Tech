@@ -30,6 +30,7 @@ body{
     height: 100vh;
     background-origin: content-box;
     width: 100%;
+    padding: 20px;
 }
 .snaps-inline > *{
     scroll-snap-align: start;
@@ -59,9 +60,6 @@ body{
     overflow-wrap: break-word;
 }
 
-.outer-container{
-    padding: 10px;
-}
 
 .para>p{
     /* Your paragraph styles here */
@@ -70,6 +68,7 @@ body{
     box-sizing: border-box;
     white-space:inherit;
     margin: 5px;
+    padding: 5px;
 }
 
 .para>img{
@@ -77,12 +76,13 @@ body{
     aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 15px;
+    margin: 10px;
 
 }
 
 .para{
     display: flex;
-    padding: auto;
+    padding: 5px;
 
 }
 
