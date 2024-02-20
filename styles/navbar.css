@@ -4,8 +4,9 @@
 
 body {
     background-image: url(../res/BG/Space-Gradient.jpg);
+    background-origin: border-box;
     width: 100vw;
-    height: 200vh;
+    height: 600vh;
 }
 .navbar {
     overflow: hidden;

@@ -1,0 +1,29 @@
+.outer-container {
+    max-width: 800px;
+    /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    margin-bottom: 30px;
+    /* Add margin between sections */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    /* Add margin above each team member */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
